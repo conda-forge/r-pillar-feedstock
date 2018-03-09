@@ -1,4 +1,4 @@
-{% set version = '1.1.0' %}
+{% set version = "1.2.1" %}
 
 package:
   name: r-pillar
@@ -9,7 +9,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/pillar_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/pillar/pillar_{{ version }}.tar.gz
-  sha256: 58a29e8d0d3a47150caf8cb1aba5dc5eca233ac8d4626f4b23beb8b5ae9003be
+  sha256: 6de997a43416f436039f2b8b47c46ea08d2508f8ad341e0e1fd878704a3dcde7
 
 build:
   number: 0
