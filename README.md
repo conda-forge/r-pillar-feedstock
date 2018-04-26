@@ -14,14 +14,16 @@ Summary: Provides a 'pillar' generic designed for formatting columns of data usi
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-pillar-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-pillar-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-pillar-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-pillar-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-pillar-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-pillar-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-pillar-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-pillar-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-pillar-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-pillar-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-pillar-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-pillar-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-pillar/badges/version.svg)](https://anaconda.org/conda-forge/r-pillar)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-pillar/badges/downloads.svg)](https://anaconda.org/conda-forge/r-pillar)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--pillar-green.svg)](https://anaconda.org/conda-forge/r-pillar) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-pillar.svg)](https://anaconda.org/conda-forge/r-pillar) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-pillar.svg)](https://anaconda.org/conda-forge/r-pillar) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-pillar.svg)](https://anaconda.org/conda-forge/r-pillar) |
 
 Installing r-pillar
 ===================
