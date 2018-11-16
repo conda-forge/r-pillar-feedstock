@@ -14,9 +14,9 @@ source:
   sha256: aed845ae4888be9a7340eed57536e3fe6cb46e89d905897fb9b0635797cfcae0
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -50,8 +50,7 @@ about:
   summary: Provides a 'pillar' generic designed for formatting columns of data using the full
     range of colours provided by modern terminals.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
