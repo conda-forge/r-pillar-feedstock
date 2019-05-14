@@ -25,18 +25,20 @@ requirements:
 
   host:
     - r-base
-    - r-cli >=1.0.0
+    - r-cli >=1.1.0
     - r-crayon >=1.3.4
     - r-fansi >=0.4.0
-    - r-rlang >=0.3.0.1
-    - r-utf8 >=1.1.3
+    - r-rlang >=0.3.4
+    - r-utf8 >=1.1.4
+    - r-vctrs >=0.1.0
   run:
-    - r-base
-    - r-cli >=1.0.0
+    - r-cli >=1.1.0
     - r-crayon >=1.3.4
     - r-fansi >=0.4.0
-    - r-rlang >=0.3.0.1
-    - r-utf8 >=1.1.3
+    - r-rlang >=0.3.4
+    - r-utf8 >=1.1.4
+    - r-vctrs >=0.1.0
+
 
 test:
   commands:
