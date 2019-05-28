@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pillar_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pillar/pillar_{{ version }}.tar.gz
-  sha256: dd6d56b73bdbb7908d6c65371c835599a9417b25129b499c486c9f6320e719b1
+  sha256: f571ca7a3ef0927747510b972da31a26da24b9da68990fe1bbc9d4ae58028c55
 
 build:
   merge_build_host: True  # [win]
