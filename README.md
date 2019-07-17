@@ -7,7 +7,7 @@ Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
-Summary: Provides a 'pillar' generic designed for formatting columns of data using the full range of colours provided by modern terminals.
+Summary: Provides 'pillar' and 'colonnade' generics designed for formatting columns of data using the full range of colours provided by modern terminals.
 
 
 
