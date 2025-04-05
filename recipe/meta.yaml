@@ -1,4 +1,4 @@
-{% set version = "1.10.1" %}
+{% set version = "1.10.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pillar_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pillar/pillar_{{ version }}.tar.gz
-  sha256: aedf2be881d0720256b58e0cf3bdd501c7cc5504c394399ea22ea1ac18af449d
+  sha256: 2cdbe3fe1b28b62530880ab26fc3c874e0dd5060767ae1a8ee5685f65e56d645
 
 build:
   number: 0
